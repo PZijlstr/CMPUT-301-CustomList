@@ -26,10 +26,10 @@ public class CustomListTest {
     }
 
     @Test
-    void testHasCity() {
+    public void testHasCity() {
         City city1 = new City("Halifax", "NS");
         City city2 = new City("Edmonton", "AB");
-        list.addCity(new City("Halifax", "NS"));
+        list.addCity(city1);
         assertTrue(list.hasCity(city1));
         assertFalse(list.hasCity(city2));
     }
