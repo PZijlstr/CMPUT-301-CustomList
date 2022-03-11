@@ -25,6 +25,22 @@ public class CustomList extends ArrayAdapter<City> {
         this.context = context;
     }
 
+    /**
+     * this function gets the size of a list
+     * @return
+     */
+    public int getCount() {
+        return cities.size();
+    }
+
+    /**
+     * this function will add a city object into the list
+     * @param city
+     */
+    public void addCity(City city) {
+        return;
+    }
+
 
     @NonNull
     @Override
