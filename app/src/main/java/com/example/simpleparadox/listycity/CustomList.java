@@ -42,6 +42,18 @@ public class CustomList extends ArrayAdapter<City> {
         return;
     }
 
+    /**
+     * This method returns true if the list of city objects
+     * contains the provided city, and false if it doesn't
+     * contain the provided city
+     * @param city
+     * Expects an object of the City class
+     * @return true if city is in the list of cities, false if city is not in the list of cities
+     */
+    public boolean hasCity(City city) {
+        return false;
+    }
+
 
     @NonNull
     @Override
